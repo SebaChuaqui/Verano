@@ -151,7 +151,7 @@ body {
 }
 
 .pelota_playa {
-    animation: moveToLeft 2s ease-in;
+    animation: moveToLeft 3s linear;
     position: absolute;
     top: 50px;
     right: 200px;
@@ -213,48 +213,48 @@ body {
 
 @keyframes moveToLeft {
     0% {
-        -webkit-transform: translate(615.0px, -193.0px);
+        -webkit-transform: translate(615.0px, -93.0px);
     }
 
     10% {
-        -webkit-transform: translate(598.9px, -204.5px);
+        -webkit-transform: translate(598.9px, -94.5px);
     }
 
     20% {
-        -webkit-transform: translate(572.2px, -217.1px);
+        -webkit-transform: translate(572.2px, -95.1px);
     }
 
     30% {
-        -webkit-transform: translate(544.7px, -222.9px);
+        -webkit-transform: translate(544.7px, -96.9px);
     }
 
     40% {
-        -webkit-transform: translate(516.7px, -222.9px);
+        -webkit-transform: translate(516.7px, -97.9px);
     }
 
     50% {
-        -webkit-transform: translate(488.5px, -217.7px);
+        -webkit-transform: translate(488.5px, -98.7px);
     }
 
     60% {
-        -webkit-transform: translate(460.6px, -207.9px);
+        -webkit-transform: translate(460.6px, -99.9px);
     }
 
     70% {
-        -webkit-transform: translate(433.2px, -194.3px);
+        -webkit-transform: translate(433.2px, -100.3px);
     }
 
     80% {
-        -webkit-transform: translate(406.7px, -177.6px);
+        -webkit-transform: translate(406.7px, -101.6px);
     }
 
     90% {
-        -webkit-transform: translate(381.6px, -158.4px);
+        -webkit-transform: translate(381.6px, -102.4px);
 
     }
 
     100% {
-        -webkit-transform: translate(200.0px, 0px);
+        -webkit-transform: translate(200.0px, -103.2px);
     }
 
 
