@@ -151,7 +151,7 @@ body {
 }
 
 .pelota_playa {
-    animation: moveToLeft 3s ease-in;
+    animation: moveToLeft 2s ease-in;
     position: absolute;
     top: 50px;
     right: 200px;
@@ -250,13 +250,11 @@ body {
 
     90% {
         -webkit-transform: translate(381.6px, -158.4px);
-        transform: rotate(0);
-        
+
     }
 
     100% {
         -webkit-transform: translate(200.0px, 0px);
-        transform: rotate(1800);
     }
 
 
