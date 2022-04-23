@@ -35,11 +35,11 @@ body {
 .playa_titulo:hover {
     position: relative;
     transform: scale(1.3);
-    border: 1px solid rgba(255, 215, 0, 1);
+    border: 1px solid red;
     border-radius: 30px;
-    box-shadow: 0 0 15px 15px rgb(255, 215, 0);
-    background: rgba(42, 42, 146, .8);
-    color: gold;
+    box-shadow: 0 0 15px 15px red;
+    background: black;
+    color: red;
     transform: rotate(1turn);
 }
 
@@ -62,7 +62,6 @@ body {
     top: 0%;
     left: -40%;
     transition: all .5s ease;
-    /* para que no se arranque se su posición */
     transform-origin: 10%;
 }
 
@@ -103,6 +102,8 @@ body {
     top: 20px;
 }
 
+
+
 .hojas,
 .sombrilla_top {
     transform-origin: 100%;
@@ -114,7 +115,7 @@ body {
     animation: moveToRight 0.25s linear infinite;
 }
 
-.playa_palmera palmera {
+.playa_palmera {
     animation: showContent 2s linear;
     left: 59%;
     position: absolute;
@@ -143,7 +144,7 @@ body {
 }
 
 .mujer:hover {
-    opacity: 0.2;
+    opacity: 0.5;
 }
 
 .pelota_playa {
@@ -153,6 +154,7 @@ body {
     right: 450px;
     z-index: 11;
 }
+
 
 @keyframes showContent {
     0% {
