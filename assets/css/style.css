@@ -48,9 +48,9 @@ body {
 }
 
 .playa_texto:hover {
-    color: black;
+    color: red;
     transform: scale(1.4);
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 3px black;
     letter-spacing: 0.7px;
     width: 60%;
     margin: 0 auto;
@@ -71,6 +71,11 @@ body {
     border-radius: 50%;
     box-shadow: 0 0 10px 25px #ecf00e;
     background: #ecf00e;
+}
+
+.sombrilla{
+    position: relative;
+    right: 500px;
 }
 
 .playa_contenido {
@@ -102,8 +107,6 @@ body {
     top: 20px;
 }
 
-
-
 .hojas,
 .sombrilla_top {
     transform-origin: 100%;
@@ -117,7 +120,7 @@ body {
 
 .playa_palmera {
     animation: showContent 2s linear;
-    left: 59%;
+    left: 40%;
     position: absolute;
     top: -80px;
     z-index: 8;
@@ -148,10 +151,10 @@ body {
 }
 
 .pelota_playa {
-    animation: moveToLeft 3s linear;
-    bottom: -11px;
+    animation: moveToLeft 3s ease-in;
     position: absolute;
-    right: 450px;
+    top: 50px;
+    right: 200px;
     z-index: 11;
 }
 
@@ -209,111 +212,53 @@ body {
 }
 
 @keyframes moveToLeft {
-    0.0000% {
+    0% {
         -webkit-transform: translate(615.0px, -193.0px);
     }
 
-    2.4513% {
+    10% {
         -webkit-transform: translate(598.9px, -204.5px);
     }
 
-    6.0842% {
+    20% {
         -webkit-transform: translate(572.2px, -217.1px);
     }
 
-    8.4197% {
+    30% {
         -webkit-transform: translate(544.7px, -222.9px);
     }
 
-    12.7262% {
+    40% {
         -webkit-transform: translate(516.7px, -222.9px);
     }
 
-    15.1735% {
+    50% {
         -webkit-transform: translate(488.5px, -217.7px);
     }
 
-    18.8368% {
+    60% {
         -webkit-transform: translate(460.6px, -207.9px);
     }
 
-    21.7153% {
+    70% {
         -webkit-transform: translate(433.2px, -194.3px);
     }
 
-    25.7555% {
+    80% {
         -webkit-transform: translate(406.7px, -177.6px);
     }
 
-    28.8672% {
+    90% {
         -webkit-transform: translate(381.6px, -158.4px);
+        transform: rotate(0);
+        
     }
 
-    33.9369% {
-        -webkit-transform: translate(358.0px, -137.6px);
+    100% {
+        -webkit-transform: translate(200.0px, 0px);
+        transform: rotate(1800);
     }
 
-    36.8352% {
-        -webkit-transform: translate(336.5px, -115.8px);
-    }
 
-    42.5475% {
-        -webkit-transform: translate(300.9px, -71.9px);
-    }
 
-    45.0772% {
-        -webkit-transform: translate(287.5px, -51.3px);
-    }
-
-    48.9315% {
-        -webkit-transform: translate(273.9px, -24.1px);
-    }
-
-    50.0000% {
-        -webkit-transform: translate(270.0px, -11.0px);
-    }
-
-    53.0000% {
-        -webkit-transform: translate(260.0px, -11.0px);
-    }
-
-    58.0000% {
-        -webkit-transform: translate(240.0px, -11.0px);
-    }
-
-    62.0000% {
-        -webkit-transform: translate(220.0px, -11.0px);
-    }
-
-    69.0000% {
-        -webkit-transform: translate(200.0px, -11.0px);
-    }
-
-    74.0000% {
-        -webkit-transform: translate(180.0px, -11.0px);
-    }
-
-    78.0000% {
-        -webkit-transform: translate(160.0px, -11.0px);
-    }
-
-    83.0000% {
-        -webkit-transform: translate(130.0px, -11.0px);
-    }
-
-    88.0000% {
-        -webkit-transform: translate(100.0px, -11.0px);
-    }
-
-    92.0000% {
-        -webkit-transform: translate(70.0px, -11.0px);
-    }
-
-    96.0000% {
-        -webkit-transform: translate(50.0px, -11.0px);
-    }
-
-    100.0000% {
-        -webkit-transform: translate(30.0px, -11.0px);
-    }
 }
